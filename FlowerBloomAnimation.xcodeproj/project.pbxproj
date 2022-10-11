@@ -16,7 +16,7 @@
 		F47BA2A128F43F4A00C321E5 /* FlowerCurveSegment1.swift in Sources */ = {isa = PBXBuildFile; fileRef = F47BA2A028F43F4A00C321E5 /* FlowerCurveSegment1.swift */; };
 		F47BA2A328F4403D00C321E5 /* AnimatedBackground.swift in Sources */ = {isa = PBXBuildFile; fileRef = F47BA2A228F4403D00C321E5 /* AnimatedBackground.swift */; };
 		F47BA2A528F4437100C321E5 /* Color+Properties.swift in Sources */ = {isa = PBXBuildFile; fileRef = F47BA2A428F4437100C321E5 /* Color+Properties.swift */; };
-		F47FC80A28F53A2C00078F2D /* bloom.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = F47FC80928F53A2C00078F2D /* bloom.mp4 */; };
+		F47FC80C28F53B4500078F2D /* bloom.gif in Resources */ = {isa = PBXBuildFile; fileRef = F47FC80B28F53B4500078F2D /* bloom.gif */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,7 +30,7 @@
 		F47BA2A028F43F4A00C321E5 /* FlowerCurveSegment1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlowerCurveSegment1.swift; sourceTree = "<group>"; };
 		F47BA2A228F4403D00C321E5 /* AnimatedBackground.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimatedBackground.swift; sourceTree = "<group>"; };
 		F47BA2A428F4437100C321E5 /* Color+Properties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+Properties.swift"; sourceTree = "<group>"; };
-		F47FC80928F53A2C00078F2D /* bloom.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = bloom.mp4; sourceTree = "<group>"; };
+		F47FC80B28F53B4500078F2D /* bloom.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = bloom.gif; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,7 +96,7 @@
 		F47FC80628F5361800078F2D /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				F47FC80928F53A2C00078F2D /* bloom.mp4 */,
+				F47FC80B28F53B4500078F2D /* bloom.gif */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -161,7 +161,7 @@
 			files = (
 				F47BA29528F43D8000C321E5 /* Preview Assets.xcassets in Resources */,
 				F47BA29228F43D8000C321E5 /* Assets.xcassets in Resources */,
-				F47FC80A28F53A2C00078F2D /* bloom.mp4 in Resources */,
+				F47FC80C28F53B4500078F2D /* bloom.gif in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
