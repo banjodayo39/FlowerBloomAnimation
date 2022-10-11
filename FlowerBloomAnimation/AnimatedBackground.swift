@@ -12,7 +12,7 @@ struct AnimatedBackground: View {
     @State var end = UnitPoint(x: 4, y: 0)
     
     let timer = Timer.publish(every: 0.2, on: .main, in: .default).autoconnect()
-    let colors = [ Color.blue.opacity(0.5),  Color.white] 
+    let colors = [ Color.black.opacity(0.5),  Color.white, Color.red.opacity(0.5)] 
     
     var body: some View {
         

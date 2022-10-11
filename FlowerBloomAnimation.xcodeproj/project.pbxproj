@@ -16,6 +16,7 @@
 		F47BA2A128F43F4A00C321E5 /* FlowerCurveSegment1.swift in Sources */ = {isa = PBXBuildFile; fileRef = F47BA2A028F43F4A00C321E5 /* FlowerCurveSegment1.swift */; };
 		F47BA2A328F4403D00C321E5 /* AnimatedBackground.swift in Sources */ = {isa = PBXBuildFile; fileRef = F47BA2A228F4403D00C321E5 /* AnimatedBackground.swift */; };
 		F47BA2A528F4437100C321E5 /* Color+Properties.swift in Sources */ = {isa = PBXBuildFile; fileRef = F47BA2A428F4437100C321E5 /* Color+Properties.swift */; };
+		F47FC80828F5363800078F2D /* vid.MOV in Resources */ = {isa = PBXBuildFile; fileRef = F47FC80728F5363800078F2D /* vid.MOV */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +30,7 @@
 		F47BA2A028F43F4A00C321E5 /* FlowerCurveSegment1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlowerCurveSegment1.swift; sourceTree = "<group>"; };
 		F47BA2A228F4403D00C321E5 /* AnimatedBackground.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimatedBackground.swift; sourceTree = "<group>"; };
 		F47BA2A428F4437100C321E5 /* Color+Properties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+Properties.swift"; sourceTree = "<group>"; };
+		F47FC80728F5363800078F2D /* vid.MOV */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; path = vid.MOV; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +63,7 @@
 		F47BA28C28F43D7E00C321E5 /* FlowerBloomAnimation */ = {
 			isa = PBXGroup;
 			children = (
+				F47FC80628F5361800078F2D /* Resources */,
 				F47BA29D28F43DEA00C321E5 /* Model */,
 				F47BA28D28F43D7E00C321E5 /* FlowerBloomAnimationApp.swift */,
 				F47BA28F28F43D7E00C321E5 /* ContentView.swift */,
@@ -88,6 +91,14 @@
 				F47BA29E28F43DFA00C321E5 /* Figures.swift */,
 			);
 			path = Model;
+			sourceTree = "<group>";
+		};
+		F47FC80628F5361800078F2D /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				F47FC80728F5363800078F2D /* vid.MOV */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -148,6 +159,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F47FC80828F5363800078F2D /* vid.MOV in Resources */,
 				F47BA29528F43D8000C321E5 /* Preview Assets.xcassets in Resources */,
 				F47BA29228F43D8000C321E5 /* Assets.xcassets in Resources */,
 			);
